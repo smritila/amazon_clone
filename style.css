@@ -6,14 +6,17 @@
   box-sizing: border-box;
   font-family: outfit;
 }
+
 body {
   background: #dadada;
 }
+
 a {
   text-decoration: none;
   color: inherit;
 }
 
+/* Navigation Styles */
 nav {
   display: flex;
   align-items: center;
@@ -22,6 +25,8 @@ nav {
   padding: 10px 20px;
   color: white;
 }
+
+/* Location Marker & City Section */
 .nav-city {
   display: flex;
   align-items: end;
@@ -34,6 +39,8 @@ nav {
   font-size: 14px;
   color: #fff;
 }
+
+/* Search Bar Styles */
 .nav-search {
   display: flex;
   flex: 1;
@@ -60,12 +67,15 @@ nav {
   padding-left: 20px;
   width: 100%;
 }
+
 .nav-search-icon {
   max-width: 41px;
   padding: 8px;
   background: #ffd64f;
   border-radius: 0 4px 4px 0;
 }
+
+/* Language Selection */
 .nav-language {
   display: flex;
   align-items: center;
@@ -73,17 +83,36 @@ nav {
   font-weight: 600;
   margin-left: 15px;
 }
+
+/* Account & Orders */
 .nav-text {
   margin-left: 15px;
 }
+
 .nav-text p {
   font-size: 10px;
 }
+
 .nav-text h1 {
   font-size: 14px;
 }
+
+/* Cart Section */
 .nav-cart {
   display: flex;
   align-items: center;
   margin: 0px 15px;
+}
+
+/* Icon Styles */
+.icon-small {
+  width: 20px;
+  height: 20px;
+  color: white;
+}
+
+.icon-medium {
+  width: 35px;
+  height: 35px;
+  color: white;
 }
