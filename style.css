@@ -131,9 +131,9 @@ nav {
   gap: 5px;
   font-weight: 500;
 }
-.header-slider ul {
+.header-slider div {
   display: flex;
-  overflow-y: hidden;
+  overflow-x: hidden;
 }
 
 .header-img {
