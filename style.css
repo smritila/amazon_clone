@@ -198,3 +198,7 @@ header-box {
   max-width: 200px;
   max-height: 200;
 }
+
+.products-slider .products::-webkit-scrollbar {
+  display: none;
+}
