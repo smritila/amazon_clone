@@ -258,22 +258,6 @@ header-box {
   width: 100px;
 }
 
-.country-info .options {
-  display: flex;
-  gap: 0.5rem;
-  margin-left: 3rem;
-}
-
-.country-info .options select {
-  font-size: 0.5rem;
-  text-decoration: none;
-  color: #cccccc;
-  background: transparent;
-  border: 1px solid #848688;
-  border-radius: 3px;
-  padding: 0.5rem;
-}
-
 .policies {
   height: 80px;
   display: flex;
@@ -290,4 +274,38 @@ header-box {
   text-decoration: none;
   color: white;
   margin-left: 1rem;
+}
+
+.country-info {
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #232f3e;
+  color: white;
+  border-top: 0.5px solid #84868878;
+}
+
+.country-info .logo {
+  height: 23px;
+}
+
+.country-info .logo img {
+  width: 100px;
+}
+
+.country-info .options {
+  display: flex;
+  gap: 0.5rem;
+  margin-left: 3rem;
+}
+
+.country-info .options select {
+  font-size: 0.5rem;
+  text-decoration: none;
+  color: #cccccc;
+  background: transparent;
+  border: 1px solid #848688;
+  border-radius: 3px;
+  padding: 0.5rem;
 }
