@@ -339,6 +339,22 @@ header-box {
     width: 7vw;
   }
 
+  .nav-search {
+    height: 4vw;
+  }
+
+  .nav-search-category {
+    width: 7vw;
+  }
+
+  .nav-search-input {
+    width: 1vw;
+  }
+
+  .nav-search-icon {
+    padding: 0.5rem 0.5rem;
+  }
+
   .policies {
     height: 8vw;
   }
