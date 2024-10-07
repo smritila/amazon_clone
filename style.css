@@ -204,6 +204,7 @@ header-box {
 }
 
 /* Footer */
+
 .back-option {
   text-decoration: none;
   height: 50px;
@@ -308,4 +309,37 @@ header-box {
   border: 1px solid #848688;
   border-radius: 3px;
   padding: 0.5rem;
+}
+
+/* small Devices*/
+@media screen and (max-width: 900px) {
+  :root {
+    font-size: 2vw;
+  }
+
+  /* Header  */
+  nav {
+    height: 5vw;
+  }
+
+  .nav-img {
+    width: 7vw;
+  }
+
+  /* Footer*/
+  .back-option {
+    height: 5vw;
+  }
+
+  .footer-links {
+    height: 40vw;
+  }
+
+  .country-info .logo img {
+    width: 7vw;
+  }
+
+  .policies {
+    height: 8vw;
+  }
 }
