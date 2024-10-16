@@ -326,6 +326,23 @@ header-box {
     width: 7vw;
   }
 
+  .nav-cart {
+    width: 3vw;
+  }
+
+  .nav-search-icon {
+    padding: 0.5rem 0.5rem;
+  }
+
+  .products-slider {
+    height: 30vw;
+  }
+
+  .products-slider .products {
+    height: 25vw;
+    flex: 1 0 20vw;
+  }
+
   /* Footer*/
   .back-option {
     height: 5vw;
