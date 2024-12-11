@@ -1,0 +1,58 @@
+footer {
+    background-color: rgb(23, 23, 49);
+    padding: 20px;
+}
+
+.footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.footer-section {
+    flex-basis: 20%;
+    margin-bottom: 20px;
+}
+
+.footer-section h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin-bottom: 5px;
+}
+
+.footer-section ul li a {
+    text-decoration: none;
+    color: whitesmoke;
+    transition: color 0.3s ease;
+}
+
+.footer-section ul li a:hover {
+    color: whitesmoke;
+    text-decoration: underline;
+}
+
+.amazon-logo {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.amazon-logo img {
+    max-width: 150px;
+}
+
+.language-selector, .country-selector {
+    margin-top: 20px;
+}
+
+
+  .footer-section h3 {
+    color: white;
+  }
